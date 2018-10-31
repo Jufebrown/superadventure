@@ -122,6 +122,7 @@
             this.Location = new System.Drawing.Point(18, 20);
             this.Name = "SuperAdventure";
             this.Text = "My Game";
+            this.Load += new System.EventHandler(this.SuperAdventure_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
