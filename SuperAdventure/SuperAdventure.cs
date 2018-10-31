@@ -25,12 +25,12 @@ namespace SuperAdventure
             _player.CurrentHP = 10;
             _player.MaxHP = 10;
             _player.Gold = 30;
-            _player.ExpPoints = 0;
+            _player.XP = 0;
             _player.Level = 1;
 
             lblHitPoints.Text = _player.CurrentHP.ToString();
             lblGold.Text = _player.Gold.ToString();
-            lblExperience.Text = _player.ExpPoints.ToString();
+            lblExperience.Text = _player.XP.ToString();
             lblLevel.Text = _player.Level.ToString();
         }
 
