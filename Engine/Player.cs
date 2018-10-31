@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Engine
 {
-    public class Player : Item
+    public class Player : LivingCreature
     {
         public int Gold { get; set; }
         public int ExpPoints { get; set; }
