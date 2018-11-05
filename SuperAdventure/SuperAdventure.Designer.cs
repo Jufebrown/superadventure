@@ -170,7 +170,7 @@
             // 
             this.btnNorth.Location = new System.Drawing.Point(493, 433);
             this.btnNorth.Name = "btnNorth";
-            this.btnNorth.Size = new System.Drawing.Size(75, 25);
+            this.btnNorth.Size = new System.Drawing.Size(75, 34);
             this.btnNorth.TabIndex = 13;
             this.btnNorth.Text = "North";
             this.btnNorth.UseVisualStyleBackColor = true;
@@ -180,7 +180,7 @@
             // 
             this.btnEast.Location = new System.Drawing.Point(573, 457);
             this.btnEast.Name = "btnEast";
-            this.btnEast.Size = new System.Drawing.Size(75, 32);
+            this.btnEast.Size = new System.Drawing.Size(75, 38);
             this.btnEast.TabIndex = 14;
             this.btnEast.Text = "East";
             this.btnEast.UseVisualStyleBackColor = true;
@@ -190,7 +190,7 @@
             // 
             this.btnSouth.Location = new System.Drawing.Point(493, 487);
             this.btnSouth.Name = "btnSouth";
-            this.btnSouth.Size = new System.Drawing.Size(75, 29);
+            this.btnSouth.Size = new System.Drawing.Size(75, 35);
             this.btnSouth.TabIndex = 15;
             this.btnSouth.Text = "South";
             this.btnSouth.UseVisualStyleBackColor = true;
@@ -200,7 +200,7 @@
             // 
             this.btnWest.Location = new System.Drawing.Point(412, 457);
             this.btnWest.Name = "btnWest";
-            this.btnWest.Size = new System.Drawing.Size(75, 32);
+            this.btnWest.Size = new System.Drawing.Size(75, 38);
             this.btnWest.TabIndex = 16;
             this.btnWest.Text = "West";
             this.btnWest.UseVisualStyleBackColor = true;
@@ -261,7 +261,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(757, 699);
+            this.ClientSize = new System.Drawing.Size(774, 676);
             this.Controls.Add(this.dgvQuests);
             this.Controls.Add(this.dgvInventory);
             this.Controls.Add(this.rtbMessages);
