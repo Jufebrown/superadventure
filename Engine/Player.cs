@@ -10,7 +10,7 @@ namespace Engine
     public class Player : LivingCreature
     {
         public int Gold { get; set; }
-        public int XP { get; set; }
+        public int XP { get; private set; }
         public int Level
         {
             get { return ((XP / 100) + 1); }
@@ -39,6 +39,12 @@ namespace Engine
 
             // See if the player has the required item in their inventory
             return Inventory.Exists(ii => ii.Details.ID == location.ItemRequiredToEnter.ID);
+        }
+
+        public void AddExperiencePoints(int experiencePointsToAdd)
+        {
+            XP += experiencePointsToAdd;
+            MaxHP = (Level * 10);
         }
 
         public bool HasThisQuest(Quest quest)
